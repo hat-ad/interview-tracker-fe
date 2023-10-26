@@ -1,0 +1,73 @@
+.editable-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.editable-table th,
+.editable-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.editable-table th {
+  background-color: #f2f2f2;
+}
+
+.editable-table input[type="text"] {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.status-select {
+  width: 100%;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.filled {
+  color: gold;
+}
+
+.login-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.login-error {
+  color: red;
+  margin-top: 5px;
+}
+
+.login-button {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
